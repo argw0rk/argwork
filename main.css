@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*background*/
+*{
+	box-sizing:border-box;
+}
+body{
+	background: url("Assets/doodle-bg.png");
+	background-size: 750px 750px;
+	
+}
+#container{ 
+width:800px;
+	margin: 0 auto;
+	background-color: rgba(255,255,255,0.30)
+}
+#Home .container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding-bottom: 80px;
+	
+}
+.ccontainer {
+	min-height: 100px;
+	padding: 25px;
+	padding-top: 25px;
+	padding-right:25px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	backface-visibility: hidden;
+	transition: transform .3s
+	
+}
+/*Navigtion bar code */
+nav{
+	margin: 0 0 20px 0 
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #A381F2;
+}
+
+nav li {
+  float: right;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+  background-color: #7846EB;
+}
+
+.active {
+  background-color: #A381F2;
+}
+
