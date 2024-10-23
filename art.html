@@ -4,9 +4,8 @@
 <meta charset="utf-8">
 <title>art</title>
 <link rel="stylesheet" href="photo.css">
-	<!-- image gallery-->
 <style>
-	
+	/*css image gallery*/
 	div.gallery {
   border: 1px solid #ccc;
 }
@@ -53,7 +52,20 @@ div.desc {
   display: table;
   clear: both;
 }
-	
+	/*flex container*/
+	.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
 	
 	
 	
@@ -88,8 +100,10 @@ div.desc {
 	</header>
 	<a></a>
 	
-	<!--dolphin images-->
-	<nav>
+	
+	<!--Art images-->
+	<div class="flex-container">
+	 <nav>
 	<div class="responsive">
   <div class="gallery">
     <a target="_blank" href="images/drawings/sarah-drawing.png">
@@ -177,7 +191,8 @@ div.desc {
 
 	<div style="padding:1px;">
 	</div>
-	</nav>
+	</nav> -
+	</div>
 </body>
 	
 	
