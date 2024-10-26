@@ -32,12 +32,21 @@ width:800px;
 	padding-right:25px;
 	padding-bottom: 25px;
 	padding-left: 25px;
-	display: flex;
-	justify-content: center;
+	/*display: flex;
+	justify-content: center;*/
 	align-items: center;
 	backface-visibility: hidden;
 	transition: transform .3s
 	
+}
+
+img{
+	width: 40%;
+	height: auto;
+}
+#logo {
+	text-align: center;
+	margin: 10px;
 }
 /*Navigtion bar code */
 nav{
