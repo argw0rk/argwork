@@ -80,6 +80,149 @@ nav li a:hover:not(.active) {
   background-color: #A381F2;
 }
 
+/*center youtube*/
+
+#Home .container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding-bottom: 80px;
+	
+}
+.ccontainer {
+	min-height: 100px;
+	padding: 25px;
+	padding-top: 25px;
+	padding-right:25px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	backface-visibility: hidden;
+	transition: transform .3s
+	
+}
+
+
+
+/*image gallery*/	
+	div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #B093F1;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*about logo and etc*/
+.container {
+    display: flex;
+    height: 100vh; 
+}
+
+.sidebar {
+    width: 300px;
+	height: 400px;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: start; /* Aligns items at the start */
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.social-icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; /* Centers icons horizontally */
+}
+
+.icon {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 40px;
+    color: #C784BC;
+    transition: color 0.3s;
+}
+
+.icon:hover {
+    color: #A381F2 /* Change to your preferred hover color */
+}
+
+.content {
+    flex: 1;
+    padding: 200px; /* Add padding for better spacing */
+    display: flex;
+    flex-direction: column; /* Align content vertically */
+    justify-content: center; /* Center content vertically */
+}
+
+h1 {
+    color: #452B81;;
+	font-size: 60px;
+	font-family: "Jua", sans-serif;
+}
+
+p {
+    color: #452B81;
+	background: rgba(163,129,242,0.67);
+	font-size: 30px;
+	font-family: "Jua", sans-serif;
+}
+
+.jua-regular {
+  font-family: "Jua", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (min-width: 768px) {
 						/* tablets and desktop*/
 		.responsive {
@@ -99,5 +242,103 @@ nav li a:hover:not(.active) {
 	  display: flex;
 	  flex-direction: column;
   }
+	p {
+    color: #452B81;
+	background: rgba(163,129,242,0.67);
+	font-size: 5px;
+	font-family: "Jua", sans-serif;
+}
+	
+	/*about logo and etc*/
+.container {
+    display: flex;
+    height: 100vh; 
+}
+	
+.sidebar {
+    width: 767px;
+	height: 300px;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 0px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: table-header-group;
+    flex-direction: flex;
+    justify-content: start; /* Aligns items at the start */
 }
 
+.logo {
+	align-self: center;
+    max-width: 300%;
+    height: auto;
+}
+
+.social-icons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center; /* Centers icons horizontally */
+}
+
+.icon {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 40px;
+    color: #C784BC;
+    transition: color 0.3s;
+}
+
+.icon:hover {
+    color: #A381F2 /* Change to your preferred hover color */
+}
+
+.content {
+    flex: 1;
+    padding: 20px; /* Add padding for better spacing */
+    display: table-row;
+    flex-direction: column; /* Align content vertically */
+    justify-content: center; /* Center content vertically */
+}
+
+h1 {
+    color: #452B81;
+	display: flex;
+	font-size: 80px;
+	font-family: "Jua", sans-serif;
+}
+
+p {
+	display: center;
+    color: #452B81;
+	background: rgba(163,129,242,0.67);
+	font-size: 20px;
+	font-family: "Jua", sans-serif;
+}
+
+.jua-regular {
+  font-family: "Jua", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

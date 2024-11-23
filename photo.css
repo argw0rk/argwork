@@ -46,51 +46,6 @@ nav li a:hover:not(.active) {
   background-color: #A381F2;
 }
 
-/*center youtube*/
-
-#Home .container {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	padding-bottom: 80px;
-	
-}
-.ccontainer {
-	min-height: 100px;
-	padding: 25px;
-	padding-top: 25px;
-	padding-right:25px;
-	padding-bottom: 25px;
-	padding-left: 25px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	backface-visibility: hidden;
-	transition: transform .3s
-	
-}
-
-/*image gallery*/	
-	div.gallery {
-  border: 1px solid #ccc;
-}
-
-div.gallery:hover {
-  border: 1px solid #B093F1;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 10px;
-}
-
-* {
-  box-sizing: border-box;
-}
 
 
 
