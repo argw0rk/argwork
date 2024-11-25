@@ -44,7 +44,7 @@ img{
 	width: 40%;
 	height: auto;
 }
-#logo {
+#mainlogo {
 	text-align: center;
 	margin: 10px;
 }
@@ -181,7 +181,7 @@ div.desc {
 
 .content {
     flex: 1;
-    padding: 200px; /* Add padding for better spacing */
+    padding: 100px; /* Add padding for better spacing */
     display: flex;
     flex-direction: column; /* Align content vertically */
     justify-content: center; /* Center content vertically */
@@ -267,7 +267,7 @@ p {
     justify-content: start; /* Aligns items at the start */
 }
 
-.logo {
+.logo2 {
 	align-self: center;
     max-width: 300%;
     height: auto;
@@ -293,7 +293,7 @@ p {
 
 .content {
     flex: 1;
-    padding: 20px; /* Add padding for better spacing */
+    padding: 5px; /* Add padding for better spacing */
     display: table-column;
     flex-direction: column; /* Align content vertically */
     justify-content: center; /* Center content vertically */
