@@ -10,7 +10,10 @@ body{
 	background-size: 750px 750px;
 	
 }
-
+footer{
+	background-color:#C784BC;
+	clear: both;
+}
 
 
 #container{ 
@@ -182,7 +185,7 @@ div.desc {
 .content {
     flex: 1;
     padding: 100px; /* Add padding for better spacing */
-    display: flex;
+    display: 10px;
     flex-direction: column; /* Align content vertically */
     justify-content: center; /* Center content vertically */
 }
