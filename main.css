@@ -15,7 +15,6 @@ footer{
 	clear: both;
 }
 
-
 #container{ 
 width:800px;
 	margin: 0 auto;
@@ -51,6 +50,83 @@ img{
 	text-align: center;
 	margin: 10px;
 }
+
+/*featured photos*/
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.item {
+    flex: 1 1 calc(30% - 20px);
+    background: #CAA7DD;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background: #CAA7DD;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #A381F2;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+
+
 /*Navigtion bar code */
 nav{
 	margin: 0 0 20px 0 
@@ -136,11 +212,6 @@ div.desc {
 
 
 
-
-
-
-
-
 /*about logo and etc*/
 .container {
     display: flex;
@@ -190,24 +261,7 @@ div.desc {
     justify-content: center; /* Center content vertically */
 }
 
-h1 {
-    color: #452B81;;
-	font-size: 60px;
-	font-family: "Jua", sans-serif;
-}
 
-p {
-    color: #452B81;
-	background: rgba(163,129,242,0.67);
-	font-size: 30px;
-	font-family: "Jua", sans-serif;
-}
-
-.jua-regular {
-  font-family: "Jua", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
 
 
 
@@ -233,9 +287,25 @@ p {
   float: left;
   width: 24.99999%;
 }
+	h1 {
+    color: #452B81;;
+	font-size: 30px;
+	font-family: "Jua", sans-serif;
+}
+
+p {
+    color: #452B81;
+	background: rgba(163,129,242,0.67);
+	font-size: 20px;
+	font-family:"Jua", sans-serif;
+}
 	}
 @media only screen and (max-width: 767px) {
 					/*phones*/
+	 .item {
+        flex: 1 1 100%;
+    }
+	
   .responsive {
 	  padding: 10px 10px;
   float: left;
