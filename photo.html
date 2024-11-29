@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>photo</title>
 <link rel="stylesheet" href="main.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -185,6 +186,19 @@ font-size: 50px;
 
 	<div style="padding:1px;">
 	</div>
+		
+		<!-- Thumbnail image that will trigger the pop-up -->
+<img src="images/photos-cropped/dolphin-1.jpg" href="images/photos-cropped/dolphin-1.jpg" alt="Thumbnail" class="popup-trigger" id="popup-trigger">
+
+<!-- The overlay container that holds the larger image -->
+<div class="popup-overlay" id="popup-overlay">
+    <span class="close-btn" id="close-btn">&times;</span>
+    <img src="images/photos-cropped/dolphin-1.jpg" alt="Large Image" class="popup-image" id="popup-image">
+</div>
+
+<script src="app.js"></script>
+		
+		
 	</nav>
 </body>
 </html>

@@ -51,7 +51,46 @@ img{
 	margin: 10px;
 }
 
-/*featured photos*/
+											/*IMAGE POP UP*/
+
+/* Styling for the image thumbnail */
+.popup-trigger {
+    width: 200px;
+    cursor: pointer;
+}
+
+/* The overlay, initially hidden */
+.popup-overlay {
+    display: none;  /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);  /* Semi-transparent background */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for the large image in the pop-up */
+.popup-image {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+/* Close button style */
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 36px;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+							/*featured photos on home page*/
 nav ul {
     list-style: none;
     padding: 0;
@@ -85,7 +124,7 @@ h2 {
     gap: 20px;
 }
 
-.item {
+.item1 {
     flex: 1 1 calc(30% - 20px);
     background: #CAA7DD;
     border-radius: 5px;
@@ -93,7 +132,7 @@ h2 {
     text-align: center;
 }
 
-.item img {
+.item1 img {
     max-width: 100%;
     border-radius: 5px;
 }
