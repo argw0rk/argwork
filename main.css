@@ -308,19 +308,8 @@ div.desc {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 @media only screen and (min-width: 768px) {
-						/* tablets and desktop*/
+																			/* tablets and desktop*/
 		.responsive {
   padding: 10px 10px;
   float: left;
@@ -339,8 +328,8 @@ p {
 	font-family:"Jua", sans-serif;
 }
 	}
-@media only screen and (max-width: 767px) {
-					/*phones*/
+@media only screen and (max-width : 768px ){
+																							/*phones*/
 	 .item {
         flex: 1 1 100%;
     }
@@ -381,7 +370,7 @@ p {
 
 .logo2 {
 	align-self: center;
-    max-width: 300%;
+    max-width: 400%;
     height: auto;
 }
 
@@ -411,9 +400,8 @@ p {
     justify-content: center; /* Center content vertically */
 }
 
-h1 { /* ABOUT ME */
+h1 { 								/* ABOUT ME */
     color: #452B81;
-	display: flex;
 	font-size: 80px;
 	font-family: "Jua", sans-serif;
 }
