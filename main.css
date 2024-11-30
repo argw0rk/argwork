@@ -46,6 +46,7 @@ img{
 	width: 40%;
 	height: auto;
 }
+
 #mainlogo {
 	text-align: center;
 	margin: 10px;
@@ -127,7 +128,7 @@ h2 {
 .item1 {
     flex: 1 1 calc(30% - 20px);
     background: #CAA7DD;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 10px;
     text-align: center;
 }
@@ -135,6 +136,8 @@ h2 {
 .item1 img {
     max-width: 100%;
     border-radius: 5px;
+	width: 80%;
+	height: auto;
 }
 
 button {
@@ -320,13 +323,11 @@ div.desc {
 	font-size: 30px;
 	font-family: "Jua", sans-serif;
 }
-
-p {
-    color: #452B81;
-	background: rgba(163,129,242,0.67);
-	font-size: 20px;
-	font-family:"Jua", sans-serif;
-}
+h3 {
+    color: #452B81;;
+	font-size: 30px;
+	font-family: "Jua", sans-serif;
+	}
 	}
 @media only screen and (max-width : 768px ){
 																							/*phones*/
@@ -343,12 +344,7 @@ p {
 	  display: flex;
 	  flex-direction: column;
   }
-	p {
-    color: #452B81;
-	background: rgba(163,129,242,0.67);
-	font-size: 5px;
-	font-family: "Jua", sans-serif;
-}
+	
 	
 	/*about logo and etc*/
 .container {
@@ -358,7 +354,7 @@ p {
 	
 .sidebar {
     width: 767px;
-	height: 300px;
+	height: 600px;
     text-align: center;
     background-color: #ffffff;
     padding: 0px;
@@ -407,7 +403,7 @@ h1 { 								/* ABOUT ME */
 }
 
 p { /* INFO ABOUT ME */
-	display: center;
+	display: bottom;
     color: #452B81;
 	background: rgba(163,129,242,0.67);
 	font-size: 18px;
