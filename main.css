@@ -370,13 +370,6 @@ h1 { 								/* ABOUT ME */
 	font-family: "Jua", sans-serif;
 }
 
-p { /* INFO ABOUT ME */
-	display: bottom;
-    color: #452B81;
-	background: rgba(163,129,242,0.67);
-	font-size: 18px;
-	font-family: "Jua", sans-serif;
-}
 
 .jua-regular {
   font-family: "Jua", sans-serif;
