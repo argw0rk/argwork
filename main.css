@@ -20,7 +20,7 @@ width:800px;
 	margin: 0 auto;
 	background-color: rgba(255,255,255,0.30)
 }
-#Home .container {
+#home .container {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
